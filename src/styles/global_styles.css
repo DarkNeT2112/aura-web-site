@@ -22,6 +22,7 @@
     --danger: #e74a3b;
     --light: #f8f9fc;
     --dark: #5a5c69;
+    --black: #2e2e33;
   }
   
   /* background-colors */
@@ -98,6 +99,9 @@
   .bg-dark {
     background: var(--dark);
   }
+  .bg-black {
+    background: var(--black);
+  }
   
   /* background-colors *
   
@@ -171,6 +175,9 @@
   }
   .color-dark {
     color: var(--dark);
+  }
+  .color-black {
+    color: var(--black);
   }
   
   /* text-colors */
@@ -285,6 +292,9 @@
   .text-1_5 {
     font-size: 1.5rem;
   }
+  .text-1_7 {
+    font-size: 1.7rem;
+  }
   .text-2 {
     font-size: 2rem;
   }
@@ -296,6 +306,9 @@
   }
   .fw-100 {
     font-weight: 100;
+  }
+  .fw-300 {
+    font-weight: 300;
   }
   .fw-50 {
     font-weight: 50;
@@ -461,7 +474,12 @@
   .gap-1 {
     gap: 1rem;
   }
-  
+  .gap-2 {
+    gap: 2rem;
+  }
+  .gap-2_5 {
+    gap: 2.5rem;
+  }
   /* gaps */
   
   /* -------------------------------------- */
@@ -500,6 +518,9 @@
   .border-radius-0 {
     border-radius: 0;
   }
+  .border-radius-5r {
+    border-radius: 5rem;
+  }
   .border-radius-0 {
     border-radius: 0;
   }
@@ -537,12 +558,6 @@
   .border-left-orange {
     border-left-color: var(--orange);
   }
-  
-  
-  
-  /* .border-table {
-    border-style:;
-  } */
   /* borders */
   
   /* -------------------------------------- */
@@ -557,9 +572,14 @@
   }
   
   /* transitions */
-  
+
   /* -------------------------------------- */
-  
+
+/* List styles*/
+.list-style-none {
+  list-style: none;
+}
+/* /List styles */
   /* shadows */
   
   .box-shadow-bottom {
